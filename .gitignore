@@ -1,0 +1,79 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.kubeconfig
+secrets/
+credentials/
+private/
+
+# SSH
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+vault-password*
+ansible-vault-password*
+
+# Logs
+*.log
+logs/
+
+# Backups / archives
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# VM / image files
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Certificates / generated config
+*.csr
+*.jks
